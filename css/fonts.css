@@ -161,7 +161,7 @@
 .blaecitalic {font-family: 'Blaec', sans-serif; font-style: italic;}
 .grotesk {font-family: 'Space Grotesk', sans-serif !important;}
 .monospace {font-family: 'Space Mono', monospace !important; line-height: var(--rem1-375) !important;}
-.italic {font-style: italic !important;}
+em, .italic {font-style: italic !important;}
 .hover-italic:hover {font-style: italic !important;}
 .oblique {font-style: oblique !important;}
 .hover-oblique:hover {font-style: oblique !important;}
@@ -189,6 +189,8 @@
 .absolute {position: absolute;}
 .fixed {position: fixed;}
 .redacted {letter-spacing: -0.25px !important;}
+.superscript {font-variant-position: super;}
+.subscript {font-variant-position: sub;}
 
 .line-height-rem1 {line-height: var(--rem1);}
 .line-height-rem2 {line-height: var(--rem2);}

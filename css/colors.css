@@ -22,8 +22,9 @@
     --vantagray: #242424;
     --headerbg-dark-transparent: #1c1d2580;
 
+    --pass: #41a82c;
     --warning: #f8ff9c;
-    --danger: #ed333b;
+    --danger: #b3262d;
     --caution: #ff7800;
     
     --accent-color-atp: #dd8ac8;
@@ -44,6 +45,7 @@
 .text-active:hover {color: var(--accent-color) !important; background-color: var(--darkgray) !important;}
 
 .vantagray {color: var(--vantagray) !important;}
+.pass {color: var(--pass) !important;}
 .warning {color: var(--warning) !important;}
 .danger {color: var(--danger) !important;}
 .caution {color: var(--caution) !important;}
